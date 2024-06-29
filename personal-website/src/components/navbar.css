@@ -1,0 +1,27 @@
+.navbar {
+    background-color: white;
+    height: 4rem;
+    width: 100vw;
+    margin: 0 auto;
+    /* padding: 1rem 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.desktopMenuListItem{
+    margin: 5rem;
+    cursor: pointer;
+    font-family:"DM Sans";
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.desktopMenuListItem:hover{
+    color: #2A82C1;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #2A82C1;
+}
