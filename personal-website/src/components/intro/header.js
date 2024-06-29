@@ -1,7 +1,9 @@
 import React from "react";
 import'./header.css'
 import { ReactTyped } from "react-typed";
-import Avatar from '../assets/Avatar.svg';
+import Avatar from '../../assets/Avatar.svg';
+// import {Link} from 'react-scroll'
+// import { linkedin, Github, file } from 'lucide-react';
 
 
 const Header = () => {

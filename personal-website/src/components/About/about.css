@@ -1,0 +1,28 @@
+.aboutme{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+  .blue-underline {
+    text-decoration: underline;
+    text-decoration-color: #2A82C1;;
+  }
+
+.abouttitle{
+    font-family: 'DM Sans';
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.description{
+    font-family: "DM Sans";
+    font-size: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    color: black;
+    text-align: left;
+}
