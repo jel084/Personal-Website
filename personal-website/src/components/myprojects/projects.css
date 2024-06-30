@@ -1,0 +1,14 @@
+.projects{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.projectstitle{
+    font-family: 'DM Sans';
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: -3rem;
+}

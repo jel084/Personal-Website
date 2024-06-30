@@ -2,7 +2,6 @@
     width:100vw;
     display: flex;
     flex-direction: column;
-
 }
 
   .blue-underline {
@@ -15,7 +14,7 @@
     color: black;
     font-weight: 700;
     font-size: 2rem;
-    padding-top: 1rem;
+    margin-bottom: -3rem;
 }
 
 .description{

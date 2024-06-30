@@ -3,7 +3,7 @@ import './about.css';
 
 const About = () => {
     return (
-        <section id='aboutme'>
+        <section className="aboutme" id='aboutme'>
             <p className="abouttitle">About Me</p>
             <p className = "description">
                 <p>Hello, my name is <span className="blue-underline">Jeanine Le</span>. I am a 2nd generation Vietnamese American and a 1st generation college student from SoCal. Currently, I am pursuing a degree in <span className="blue-underline">computer science at UC San Diego</span>. After graduating, I aspire to work in <span className="blue-underline">web development or software engineering</span>.</p>

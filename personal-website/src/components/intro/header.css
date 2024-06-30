@@ -28,5 +28,17 @@
     font-family: "DM Sans";
     color: #737373;
     margin-top: 1rem;
-
   }
+.socials{
+  margin-top: -7rem;
+}
+
+.socialitem{
+  color: black;
+  font-size: 4rem;
+  margin: 5rem;
+}
+
+.socialitem:hover{
+  color:#2A82C1
+}
