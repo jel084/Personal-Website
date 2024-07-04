@@ -8,13 +8,12 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
-    /* margin-left: -15rem; */
-    /* align-items: center; */
-    /*justify-content: center;  /*this centers it vertically*/
+    margin-top: 4rem;
+    margin-bottom: -13rem;
     font-size: 5rem;
     font-family:"DM Sans";
     color: rgb(0, 0, 0);
+    /* padding-bottom: 1rem; */
   }
 
   .text-blue {
