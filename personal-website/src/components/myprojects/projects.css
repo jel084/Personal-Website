@@ -1,33 +1,40 @@
-.projects{
-    width:100vw;
+.projects {
+    width: 100vw;
     display: flex;
     flex-direction: column;
-}
-
-
-.title{
+    align-items: center;
+  }
+  
+  .title {
     font-family: 'DM Sans';
     color: black;
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 2rem;
-}
-
-.projects-container {
+  }
+  
+  .projects-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25rem;
+    justify-content: center; 
+  align-items: center; 
   }
   
   .project-card {
     border: 1px solid #ddd;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
     color: inherit;
-    transition: transform 0.2s ease;
     display: block;
     border-radius: 20px;
     padding: 20px;
     width: 600px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+  
+  .project-card:hover {
+    border-color: #2A82C1; 
+    transform: translateY(-5px); 
   }
   
   .project-image {
@@ -43,12 +50,12 @@
   
   .project-content h2 {
     margin: 0 0 10px;
-    font-family: "DM SANS";
+    font-family: 'DM Sans';
   }
   
   .project-content p {
     margin: 5px 0;
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
   }
   
   .project-content ul {
@@ -60,7 +67,7 @@
     display: inline-block;
     background-color: #2A82C1;
     color: #fff;
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     padding: 5px 10px;
     border-radius: 4px;
     margin: 5px 5px 0 0;
@@ -74,6 +81,6 @@
   }
   
   .project-content a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
