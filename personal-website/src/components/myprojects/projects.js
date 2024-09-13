@@ -3,6 +3,7 @@ import ProjectCard from './projectcard.js';
 import './projects.css';
 import SC from '../../assets/sc.png';
 import SG from '../../assets/sg.png';
+import chatbot from '../../assets/chatbot.gif';
 
 
 const projects = [
@@ -37,6 +38,14 @@ const projects = [
     description: "Worked in a group of undergraduate students to develop a device that can provide assistance and enhance personal safety when individuals find themselves in dangerous situations, along with a complementary mobile application to accompany keychain device.",
     skills: ["Kotlin", "AndroidStudio"],
     source: "https://github.com/mwdai049/campus-safety-app"
+  },
+  {
+    title: "Thaddeus Resource Center ChatBot",
+    date: "SEPT 2024",
+    imageSrc: chatbot,
+    description: "I created an AI chatbot for the TRC website to improve user engagement/provide real-time assistance. I set up the Botpress environment, designed conversational flows, and configured the NLU to recognize user intents and respond accurately. After testing and refining the bot's behavior, I deployed it to the website to offer interactive support for users.",
+    skills: ["Botpress Studio", "JavaScript", "NLP"],
+    source: "https://www.thaddeus.org/"
   }
 ];
 
