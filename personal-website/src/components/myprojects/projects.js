@@ -4,6 +4,7 @@ import './projects.css';
 import SC from '../../assets/sc.png';
 import SG from '../../assets/sg.png';
 import chatbot from '../../assets/chatbot.gif';
+import groupifygif from '../../assets/groupifygif.gif';
 
 
 const projects = [
@@ -50,7 +51,7 @@ const projects = [
   {
     title: "Groupify",
     date: "AUG 2024 - PRESENT",
-    // imageSrc: ,
+    imageSrc: groupifygif,
     description: "Groupify is a web application designed to help students connect based on shared study habits, preferences, and course material. It streamlines the process of forming study groups by matching users with peers who have similar academic goals and schedules.",
     skills: ["REACT", "Firebase"],
     source: "https://github.com/jel084/groupify"
