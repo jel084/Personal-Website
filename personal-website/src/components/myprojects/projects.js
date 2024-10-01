@@ -46,6 +46,14 @@ const projects = [
     description: "I created an AI chatbot for the TRC website to improve user engagement/provide real-time assistance. I set up the Botpress environment, designed conversational flows, and configured the NLU to recognize user intents and respond accurately. After testing and refining the bot's behavior, I deployed it to the website to offer interactive support for users.",
     skills: ["Botpress Studio", "JavaScript", "NLP"],
     source: "https://www.thaddeus.org/"
+  },
+  {
+    title: "Groupify",
+    date: "AUG 2024 - PRESENT",
+    // imageSrc: ,
+    description: "Groupify is a web application designed to help students connect based on shared study habits, preferences, and course material. It streamlines the process of forming study groups by matching users with peers who have similar academic goals and schedules.",
+    skills: ["REACT", "Firebase"],
+    source: "https://github.com/jel084/groupify"
   }
 ];
 
